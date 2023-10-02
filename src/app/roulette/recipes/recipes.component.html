@@ -1,1 +1,21 @@
-<p>recipes works!</p>
+<div *ngFor="let recipe of chosenRecipe | async ">
+    <article id="recipe-name">
+        <h1>Tänään syödään: </h1>
+        <section class="container">
+            <figure>
+                <img src="{{ 'assets/images/foodimg/' + recipe.id + 'jpeg' }}" alt="kuva ateriasta"/>
+            </figure>
+            <section class="recipe">
+                <h2>{{ recipe.name }} {{ recipe.budjetti }}</h2>
+                <hr>
+                <h5>Resepti: </h5>
+                    <p>{{ recipe.ohje }}</p>
+            </section>
+        </section>
+        <section class="ostolista-btn">
+            <button mat-raised-button color="accent" (click)="onShowShoppingList()">Tee ostoslista</button>
+        </section>
+    </article>
+</div>
+
+<app-shopping-list *ngIf="onShowShoppingList" [chosenRecipe]="chosenRecipe"></app-shopping-list>

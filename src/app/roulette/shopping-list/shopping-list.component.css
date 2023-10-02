@@ -1,0 +1,38 @@
+.strikethrough {
+    text-decoration: line-through;
+}
+
+button {
+    background-color: white;
+}
+
+.wrapper {
+    background-color: white;
+    border-right: solid 1rem #6CC8E1;
+    border-left: solid 1rem #6CC8E1;
+    border-bottom: solid 1rem #6CC8E1;
+}
+.main {
+    padding: 25px 0 25px 25px;
+    max-width: 400px;
+    margin: auto;
+}
+table td, th {
+    color: black;
+}
+table td {
+    padding-top: 5px;
+}
+table th {
+    padding-bottom: 10px;
+}
+.form-check{
+    padding-top: 5px;
+}
+
+.form-check-input {
+    background-color: #84c6de;
+}
+.btn {
+    margin-bottom: 50px;
+}
