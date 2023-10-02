@@ -1,0 +1,316 @@
+[
+    {
+      "id" : 101,
+      "name" : "Kinkkukiusaus",
+      "imageUrl": "images/foodimg/101.jpeg",
+      "ruokavalio" : "liha",
+      "ohje" : "Voitele uunivuoka ja kaada perunasipulisekoitus, kinkkusuikaleet sekä juustoraaste vuokaan. Halutessasi voit säästää osan juustoraasteesta pinnalle ripoteltavaksi. Sekoita ainekset keskenään. Sekoita kerma ja mausteet keskenään ja kaada sitten seos tasaisesti vuokaan. Paista uunissa 200 asteessa noin 60-90min, uunista riippuen.",
+      "valmistusaika" : "100",
+      "ainekset" : ["500g perunasipulisekoitus", "250g kinkkusuikaleita", "4,5dl ruokakermaa", "2dl juustoraastetta", "suolaa", "mustapippuria", "voita uunivuuan voiteluun"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 102,
+      "name" : "Makkarakeitto",
+      "imageUrl": "images/foodimg/102.jpeg",
+      "ruokavalio" : "liha",
+      "ohje" : "Kuori ja pilko perunat, keitä runsaassa vedessä noin 20min. Lisää joukkoon lihaliemikuutio, keittojuurekset sekä pilkottu HK:n sininen. Halutessasi lisää mausteita kuten maustepippuria, paprikajauhetta sekä chiliä oman maun mukaan.",
+      "valmistusaika" : "30",
+      "ainekset" : ["1pkt HK: sininen lenkki", "500g perunoita", "2pss keittojuureksia (pakaste)", "1kpl lihaliemikuutio", "mausteita oman maun mukaan"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 103,
+      "name" : "Kanakastike ja riisi",
+      "imageUrl": "images/foodimg/103.jpeg",
+      "ruokavalio" : "liha",
+      "ohje" : "Pilko sipulit ja kuullota pannulla. Lisää pannulle kanat, paista kypsäksi. Lisää joukkoon kerma ja jätä miedolla lämmöllä porisemaan. Kuutioi paprika ja ananas sekä valmista riisi pakkauksen ohjeen mukaan. Lisää kastikkeen joukkoon kanaliemikuutio, pilkottu paprika sekä ananaspalat. Halutessasi voit lisätä hieman ananasten mehua sekä muita mausteita kastikkeeseen makua antamaan. Anna kastikkeen tekeytyä kunnes koostumus on sopiva. Viimeisenä lisää kastikkeeseen fetakuutiot, sekoita kunnolla ja valmista on. Tarjoile kastike riisin kanssa.",
+      "valmistusaika" : "60",
+      "ainekset" : ["500g kanasuikaleita", " 1kpl sipuli", "1kpl punainen paprika", "1kpl kanaliemikuutio", "1tlk ananasta omassa mehussa", "200g fetaa", "5dl ruokakermaa", "3dl riisiä"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 104,
+      "name" : "Kermainen kanapasta",
+      "imageUrl": "images/foodimg/104.jpeg",
+      "ruokavalio" : "liha",
+      "ohje" : "Laita pasta kiehumaan paketin ohjeiden mukaan. Ruskista kanat ja valkosipulit. Mausta suolalla ja pippureilla. Lisää kerma ja murustettu aurajuusto. Anna hautua niin että aurajuusto sulaa kerman joukkoon. Sekoita valmis kastike ja pasta keskenään.",
+      "valmistusaika" : "15",
+      "ainekset" : ["400g broilerin filesuikaleita", "3dl ruokakermaa", "1pkt aurajuustoa", "2-4 valkosipulinkynttä", "suolaa", "maustepippuria", "pastaa pussin ohjeen mukaan 4:lle hengelle"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 105,
+      "name" : "Paella",
+      "imageUrl": "images/foodimg/105.jpeg",
+      "ruokavalio" : "liha",
+      "ohje" : "Leikkaa broisku ja possu tikkumaisiksi ohuiksi suikaleiksi. Ota mahdollisimman suuri paistinpannu, jollei ole paella pannua. Leikkaa jotain maustettua makkaraa muuutama ohut siivu, tässä oli Saaremaan kanamakkaraa. Leikkaa sipuli ohkaisiksi lohkoiksi ja valkosipulit muutamaan osaan. Ruskista molemmat lihasuikaleet pannulla, siirrä toiseen astiaan odottamaan ja sirottele hiukan suolaa päälle. Käytä pannulla myös sipulit ja makkarat, siirrä ne myös sivuun odottamaan. Lisää pannulle vesi, kanaliemikuutio, riisit ja sahrami. Liota liemikuutio ja lisää kana ja possu. Tarkista pakkauksesta riisin keittoaika ja toimi sen mukaan. Lisää vihannekset pari minuuttia ennen kuin riisi on valmis, niihin saa jäädä pureskeltavaa. Lisää heti perään katkaravut ja makkarat. Nosta pannu pöytään ja laita päälle sitruunalohkoja.",
+      "valmistusaika" : "30",
+      "ainekset" : ["2 possun ulkofilettä", "1 broilerin rintafilettä", "maustettua makkaraa", "katkarapuja", "2,5 dl pitkäjyväistä riisiä", "0,5-1 tl sahramia", "1 sipuli", "4 valkosipulinkynttä", "muutama aurinkokuivattu tomaatti suikaloituna", "herne-maissi-porkkana pakaste sekoitus", "1 kanaliemikuutio", "6 dl vettä", "öljy paistamiseen", "suolaa"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 106,
+      "name" : "Pasta carbonara roomalaisittain",
+      "imageUrl": "images/foodimg/106.jpeg",
+      "ruokavalio" : "liha",
+      "ohje" : "Litistä kuorittu valkosipulinkynsi veitsensyrjällä. Kuumenn oliiviöljy ja paista kynsi kullankeltaiseksi, poista kynsi öljystä. Lisää pieneksi kuutioitu guanciale ja paista palat rapeiksi.  Lisää viini ja anna haihtua. Sekoita keskenään muna, suolaa, pippuria ja raastettu juusto.  Keitä pasta al denteksi suolavedessä ja valuta pasta lävikössä. Sekoita pasta  munakastikkeen ja guancialen kanssa yhteen. Koristele annos basilikalla.",
+      "valmistusaika" : "20",
+      "ainekset" : ["400 g bavette pastaa", "1 kpl valkosipulinkynttä", "3 kpl isoa kananmunaa", "100 g guancialea siivuina ja pieneksi kuutioituna", "60 g pecorinoa raastettuna", "2 rkl laadukasta italialaista oliiviöljyä", "1 rkl kuivaa valkoviiniä", "suolaa ja pippuria", "tuoretta basilikaa"],
+      "budjetti" : "€€€"
+    },
+    {
+      "id" : 107,
+      "name" : "Hirvenpaisti",
+      "imageUrl": "images/foodimg/107.jpeg",
+      "ruokavalio" : "liha",
+      "ohje" : "Siisti paisti, huuhtele nopeasti ja kuivaa hyvin. Ruskista voi valurautapannussa ja ruskista siinä paisti joka puolelta kauniin väriseksi. Ota liha ja laita reilunkokoiseen kattilaan, huuhtele paistinpannu ja kaada huuhdeliemi kattilaan, lisää vettä että paisti peittyy. Kuori vaahto pinnalta ja kun on liemi kirkas, niin sitten vasta mausta. Liemi saa olla todella hyvin maustettua. Laita lohkotut sipulit ja porkkanat sekä pippurit ym kattilaan ja keitä paisti miedolla lämmöllä. Lihan pitää olla läpikypsä. Tarjoile perunamuussin kanssa tai palloperunoiden.",
+      "valmistusaika" : "160",
+      "ainekset" : ["hirven sisäpaistia", "voita", "sipulia", "porkkanaa", "valkosipulia", "lihaliemikuutioita", "suolaa", "cayennepippuria", "katajanmarjoja", "mustapippuria ja valkopippuria", "vettä", "vehnäjauhoja", "paistinlientä", "kermaa", "sinappia", "ketsuppia", "konjakkia", "punapippuria"],
+      "budjetti" : "€€€"
+    },
+    {
+      "id" : 108,
+      "name" : "Pyttipannu",
+      "imageUrl": "images/foodimg/108.jpeg",
+      "ruokavalio" : "liha",
+      "ohje" : "Kuori ja leikkaa (raa'at) perunat pieniksi kuutioiksi. Kuumenna reilu nokare voita pannulla ja paistele perunoita keskilämmöllä, kunnes ovat kauniin ruskeat ja kypsät. Lisää pannulle sipulisilppu ja makkarakuutiot. Paistele, kunnes makkarat ruskistuvat. Mausta tuoreella persiljasilpulla, suolalla ja pippurilla.",
+      "valmistusaika" : "15",
+      "ainekset" : ["4 kpl perunaa, keskikokoista", "voita paistamiseen", "4 kpl salottisipulia", "2 kpl makkaraa (yht. noin 250g)", "ripaus merisuolahiutaleita", "ripaus mustapippuria myllystä","1 rkl tuoretta persiljasilppua"],
+      "budjetti" : "€"
+    },
+
+    {
+      "id" : 201,
+      "name" : "Uunilohi",
+      "imageUrl": "images/foodimg/201.jpeg",
+      "ruokavalio" : "kala",
+      "ohje" : "Varmista että kalassa ei ole ruotoja. Laita kala uunivuokaan, lisää sitruunaviipaleita ja tilliä päälle, paista 200 asteen uunissa noin 25min. Kalan paistuessa valmista kalalle kastike sekoittamalla kermaviili, sinappi, pippuri, sitruunamehu ja ripaus tilliä. Tarjoile uunilohi esimerkiksi perunamuusin sekä vihersalaatin kera.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["1kg lohta", "1 sitruuna", "tilliä", "1prk kermaviiliä", "1tl sinappia", "sitruunapippuria", "sitruunamehua"],
+      "budjetti" : "€€"
+    },
+    {
+      "id": 202,
+      "name" : "Tonnikalapihvit",
+      "imageUrl": "images/foodimg/202.jpeg",
+      "ruokavalio" : "kala",
+      "ohje" : "Mittaa kermaviili pieneen taikinakulhoon ja sekoita korppujauho sekaan. Anna turvota ja mausta. Valuta tonnikalat, sekoita massaan ja lisää kananmunat. Jos taikina on liian juoksevaa, lisää korppujauhoja. Paista uunin keskitasolla n.200-225 asteessa, kunnes pinnassa on kaunis väri ja pihvit ovat ns. kimmoisia. Tarjoile muusin tai uusien perunoiden kanssa. Kermaviilin jämästä saat oivan kylmäkastikkeen, kun lisäät siihen ruohosipulia ja tilliä.",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["2prk tonnikalaa vedessä", "4rkl kermaviiliä", "0,5-1dl korppujauhoja", "2tl sitruunapippuria", "1-2 kananmunaa", "mausteita oman maun mukaan"],
+      "budjetti" : "€"
+    },
+    {
+      "id": 203,
+      "name" : "Tonnikalarisotto",
+      "imageUrl": "images/foodimg/203.jpeg",
+      "ruokavalio" : "kala",
+      "ohje" : "Kuullota riisi pannulla ja lisää mausteet. Lisää vettä desi kerrallaan koko ajan sekoittaen, kun edellinen desi on melkein imeytynyt riisiin lisää seuraava. Tarkkaile risoton koostumusta ja lisää vettä sen mukaan. Lopuksi lisää herne-maissi-paprika ja tonnikala. Sekoita kunnolla ja tarjoile heti!",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["1prk tonnikalaa öljyssä", "2dl risottoriisiä", "noin 5dl vettä", "1ps herne-maissi-paprikaa", "mausteita oman maun mukaan"],
+      "budjetti" : "€€"
+    },
+    {
+      "id": 204,
+      "name" : "Kalakeitto",
+      "ohje" : "Sulata seitipala ja leikkaa se 1cm paksuisiksi viipaleiksi. Kuumenna vesi kiehuvaksi ja lisää veteen jäinen peruna-sipulisekoitus, kalaliemikuutio ja suola. Kun keitto kiehuu, lisää kalaviipaleet. Keitä miedolla lämmöllä noin 10 minuuttia. Mausta pippurilla ja tillillä ja halutessasi kermalla.",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["500g peruna-sipulisekoitus", "400g Alaskanseitiä", "1 kala- tai kasvisliemikuutio", "1/2tl suolaa", "1/2tl pippuria", "(1-2dl ruokakermaa)"],
+      "budjetti" : "€€"
+    },
+    {
+      "id": 205,
+      "name" : "Kalapuikot ja muusi",
+      "ohje" : "Kuori ja pilko perunat. Keitä kasvisliemikuutiolla maustetussa vedessä kunnes pehmenevät. Kaada suurin osa keitinliemestä pois, survo muusiksi survimella tai sauvasekoittimella. Lisää maitoa sen verran että koostumus on toivotunlainen. Mausta voilla, suolalla ja valkopippurilla. Kalapuikot paistetaan paketin ohjeen mukaan. Yleensä keskilämmöllä molemmin puolin n. 5 min.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["7 perunaa", "1 kasvisliemikuutio", "2 dl maitoa", "2 rkl voita", "1tl suolaa", "1/2tl valkopippuria", "1 pkt pakaste kalapuikkoja"],
+      "budjetti" : "€€"
+    },
+    {
+      "id": 206,
+      "name" : "Kylmäsavulohisalaatti",
+      "ohje" : "Valmista sitrusvinegretti sekoittamalla oliiviöljy, sitruunamehu, sinappi, suola ja sokeri. Viipaloi kurkku ja avokadot. Kaada salaattisekoitus kulhoon, lisää joukkoon sitrusvinegretti ja sekoita ainekset keskenään. Levitä salaatti laakealle vadille. Lisää päälle kurkku- ja avokadoviipaleet sekä kirjolohi. Viimeistele salaatti tillillä.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["180g kurkkua", "2 avokadoa", "1ps salaattisekoitusta", "150g kylmäsavustettua lohifileetä", "1/2dl oliiviöljyä", "1rkl sitruunamehua", "1tl sinappia", "1tl sokeria", "1/4tl suolaa"],
+      "budjetti" : "€€"
+    },
+    {
+      "id": 207,
+      "name" : "Tonnikalaspagetti",
+      "ohje" : "Valuta tonnikaloista öljy suoraan paistinpannulle. Lisää hienonnetut valkosipulit ja kaprikset pannulle. Kuumenna miedolla lämmöllä muutama minuutti. Lisää sitruunan kuoriraaste, mehu sekä mausteet. Lisää lopuksi vielä tonnikalat ja kuumenna. Keitä pasta pakkauksen ohjeen mukaan. Lisää tonnikalakastike kuuman pastan joukkoon ja lisää lopuksi revitty rucola. Tarjoa pasta halutessasi parmesaaniraasteen kanssa.",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["2 tlk tonnikalaa öljyssä", "2 valkosipulinkynttä", "1prk kapriksia", "1rkl sitruunankuorta", "1 rkl sitruunamehua", "1/4 tl suolaa", "1/4tl mustapippuria", "400g spagettia"],
+      "budjetti" : "€€"
+    },
+    {
+      "id": 208,
+      "name" : "Ruiskalaburgerit",
+      "ohje" : "Kuumenna jäiset kalapihvit rasvassa pannulla miedolla lämmöllä 5–7 minuuttia tai uunissa 225 asteessa 15–20 minuuttia. Viipaloi tomaatti, revi jääsalaatti. Paahda leivät. Sekoita kastike jogurtista, kurkkusalaatista ja ruohosipulista. Kokoa hampurilaiset, lisäämällä pihvit ja kastike sämpylöiden väliin, ja tarjoa heti.",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["200g kalapihvejä", "1 iso tomaatti", "100g jääsalaattia", "4 ruisleipää", "1tlk turkkilaista jogurttia", "1/2dl kurkkusalaattia", "2 rkl ruohosipulia"],
+      "budjetti" : "€€"
+    },
+    {
+      "id": 209,
+      "name" : "Lohitacot",
+      "ohje" : "Paista lohi pannulla kypsäksi molemmin puolin. Lämmitä tortillat paistinpannulla. Levitä tortilloiden pohjalle ranskankermaa, revi lohi reilun kokoisiksi paloiksi ja jaa tortilloille. Lusikoi päälle juustokuutiota ja viipaloitu mango, koristele halutessasi chiliviipaleilla ja korianterilla.",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["100g salaattijuustokuutioita", "250g mangoa", "1rkl limetinmehua", "1/2dl korianteria", "400g lohta", "1rkl rypsiöljyä", "3/4tl suolaa", "8 maissitortillaa", "1dl ranskankermaa", "1 punainen chili", "tuoretta korianteria"],
+      "budjetti" : "€€€"
+    },
+    {
+      "id": 210,
+      "name" : "Kalapizza",
+      "ohje" : "Sekoita hienonnettu tilli ja tuorejuusto keskenään. Levitä seos pizzapohjien päälle. Ripottele päälle juustomuru ja kalaviipaleet. Siirrä pizzat yksi kerrallaan uuniin paistumaan esilämmitetylle pizzakivelle tai uunipellille. Kotiuunissa 250–300 asteessa pizza paistuu 3–5 minuutissa, kuumassa pizzauunissa nopeammin. Valuta pizzoille lopuksi oliiviöljyä ja viimeistele tuoreella tillillä, sitruunankuorella ja rouhitulla mustapippurilla.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["4kpl:tta valmiita pizzapohjia", "180g ruohosipulituorejuustoa", "1dl tuoretta tilliä", "150g pizzajuustoa", "150g kalaa, esim. lohta, muikkua, särkeä", "4tl oliiviöljyä", "sitruunankuorta", "mustapippuria"],
+      "budjetti" : "€€€"
+    },
+    {
+      "id" : 301,
+      "name" : "Kanttarellikastike",
+      "imageUrl": "images/foodimg/301.jpeg",
+      "ruokavalio" : "kasvis",
+      "ohje" : "Pidä puhtaita sieniä kuumalla pannulla kunnes neste haihtuu. Lisää voi ja sipuli hienonnettuna. Kypsennä hetki. Lisää vehnäjauhot ja kerma ja sekoita tasaiseksi. Kypsennä hetki vielä ja sekoita tasaiseksi. Tarjoile esimerkiksi keitettyjen perunoiden kanssa.",
+      "valmistusaika" : "15min",
+      "ainekset" : ["1l tuoreita kanttarelleja", "2rkl voita", "1 sipuli", "3rkl vehnäjauhoja", "1,5dl ruokakermaa", "suolaa ja pippuria"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 302,
+      "name" : "Kasvislasagne",
+      "imageUrl": "images/foodimg/302.jpeg",
+      "ruokavalio" : "kasvis",
+      "ohje" : "Levitä voidellun suorakaiteisen vuoan pohjalle juustokastiketta, tämän päälle lasagnelevyjä ja lopuksi 1/3 tai 1/4 osa tomaattikastiketta. Jatka kokoamista samassa järjestyksessä, kolme tai neljä kerrosta. Lopuksi ripottele pinnalle juustoraastetta. Paista lasagnea 200 asteessa 30-40 minuuttia. Tarjoa tuoreiden kasvisten ja vaikkapa raejuuston kanssa.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["lasagnelevyjä", "tomaattikastike", "juustokastike", "juustoraastetta"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 303,
+      "name" : "Pinaattikeitto",
+      "imageUrl": "images/foodimg/303.jpeg",
+      "ruokavalio" : "kasvis",
+      "ohje" : "Sulata rasva paksupohjaisessa kattilassa. Lisää vehnäjauhot ja sekoita hetken, älä anna ruskistua. Lisää maito koko ajan sekoittaen. Anna kiehahtaa. Lisää pinaatti ja anna kiehua hetken hiljalleen. Tarjoa keitettyjen kananmunan puolikkaiden kera.",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["3rkl voita", "0,75dl vehnäjauhoja", "1l maitoa", "150g pakastepinaattia", "1tl suolaa", "kananmunia"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 304,
+      "name" : "Pinaattitortellinipannu",
+      "ohje" : "Kuumenna öljy paistinpannussa, lisää viipaloidut sienet ja paista ruskeiksi. Lisää valkosipuli ja paista vielä hetki. Alenna lämpöä ja kaada pannulle ruokakerma. Huuhtele tölkki vedellä ja lisää pannulle myös vesi, pinaatti ja tortellonit. Sekoita, ja anna hautua kannen alla noin 5 minuuttia. Mausta kastike parmesaaniraasteella, sitruunanmehulla, suolalla ja pippurilla. Viimeistele annokset parmesaaniraasteella.",
+      "valmistusaika" : "30",
+      "ainekset" : ["200g herkkusieniä", "2 valkosipulinkynttä", "2rkl oliiviöljyä", "2dl ruokakermaa", "250g ricotta-pinaattitortelloneja", "1dl raastettua parmesaania", "1rkl sitruunamehua"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 305,
+      "name" : "Feta-pastasalaatti",
+      "ohje" : "Keitä pasta suolalla maustetussa vedessä. Huuhtele kylmässä vedessä. Sekoita öljy, appelsiinimehu ja etikka, sinappi keskenään ja sekoita pastan joukkoon. Pane jääkaappiin tekeytymään pariksi tunniksi. Lisää feta ja babypinaatti marinoidun pastan joukkoon. Raasta päälle halutessasi mustapippuria ja tarjoa salaatti balsamietikkakastikkeen kanssa.",
+      "valmistusaika" : "30",
+      "ainekset" : ["400g pennepastaa", "3/4dl rypsiöljyä", "1/2dl appelsiinimehua", "1rkl omenaviinietikkaa", "1tl sinappia", "200g fetajuustoa", "1ps babypinaattia", "balsamietikkakastiketta"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 306,
+      "name" : "Lämpimät mozzarellaleivät",
+      "ohje" : "Viipaloi mozzarellat ja tomaatit. Voitele leipäviipaleet pestolla. Täytä leivät mozzarellalla, tomaatilla, rucolalla ja basilikalla. Paista leipiä pannulla öljyssä molemmin puolin muutaman minuutin ajan, kunnes ne saavat hieman väriä ja mozzarella alkaa hieman sulaa. Halkaise leivät halutessasi puoliksi.",
+      "valmistusaika" : "15",
+      "ainekset" : ["200g mozzarellaa", "2 tomaattia", "8 viipaletta paahtoleipää", "4rkl vihreää pestoa", "1/4ps rucolaa ja basilicaa", "1rkl rypsiöljyä"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 307,
+      "name" : "Kantarellipizza",
+      "ohje" : "Paista kuutioidut sienet kuivalla pannulla noin 10 minuuttia, kunnes enin neste on haihtunut. Mausta sienet suolalla ja pippurilla. Valmista ranskankermakastike, sekoittamalla parmesaani-mozzarellaraaste ranskankermaan. Levitä pizzapohjille ranskankermakastiketta, kantarelleja ja punasipulisuikaleita. Pirskota hieman oliiviöljyä päälle. Paista 275-asteisessa uunissa 8–10 minuuttia. Viimeistele pizzat tuoreella basilikalla.",
+      "valmistusaika" : "60",
+      "ainekset" : ["4kpl pizzataikinaa", "300g kantarelleja", "1 punasipuli", "2prk ranskankermaa", "80g parmesaani-mozzarellajuustoraastetta", "1/4tl mustapippuria", "tuoretta basilikaa", "oliiviöljyä"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 308,
+      "name" : "Punajuuripasta",
+      "ohje" : "Pyörittele punajuurilohkot ja valkosipulinkynnet öljyssä. Mausta suolalla ja pippurilla. Paahda 200-asteisessa uunissa leivinpaperin päällä pellillä 45–50 minuuttia, kunnes punajuuret ovat pehmenneet. Keitä pasta suolalla maustetussa vedessä pakkauksen ohjeen mukaan. Valuta pasta, ota desilitra keitinvettä talteen. Lisää öljy pastan joukkoon. Pane paahdetut punajuuret, valkosipulit ja keitinvesi tehosekoittimeen ja soseuta. Mausta sose hunajalla. Sekoita punajuurisose pastan joukkoon ja murustele feta pastan päälle. Viimeistele rucolalla ja tarjoa heti.",
+      "valmistusaika" : "60",
+      "ainekset" : ["500g punajuuria", "2 valkosipulinkynttä", "1rkl oliiviöljyä", "1/4tl suolaa", "1/4tl mustapippuria", "350g pastaa", "1tl oliiviöljyä", "1tl hunajaa", "200g fetajuustoa", "65g rucolaa"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 309,
+      "name" : "Ananas-riisicurry",
+      "ohje" : "Kuori ja hienonna sipuli. Halkaise, puhdista ja kuutioi paprika. Kuullota sipulit öljyssä kattilassa. Lisää paprikakuutiot ja kaikki mausteet. Sekoita hetki. Lisää riisi kattilaan. Kaada joukkoon vesi, ananastölkin liemi ja soijakastike. Anna kiehua kannen alla noin 10 minuuttia. Lisää lopuksi ananaspalat, ja suolapähkinät. Kuumenna. Tarjoa raikkaan salaatin ja leivän kanssa.",
+      "valmistusaika" : "20",
+      "ainekset" : ["1 sipuli", "1 punainen paprika", "2rkl öljyä", "3tl garam masala-mausteseosta", "2tl currya", "1tl paprikajauhetta", "1tl suolaa", "3dl jasmiiniriisiä", "2rkl soijakastiketta", "1tlk ananaspaloja", "1dl suolapähkinöitä"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 310,
+      "name" : "Täytetyt uunibataatit",
+      "ohje" : "Pistele pestyt bataatit haarukalla, ja kypsennä leivinpaperin päällä pellillä 200-asteisessa uunissa noin 50 minuuttia kypsäksi. Valmista täyte yhdistämällä valutetut kikherneet, vuohenjuusto sekä ranskankerma. Mausta currytahnalla. Tee ristiviillot bataattien pintaan ja koverra bataattien sisusta haarukalla. Lisää täyte bataattien pinnalle.",
+      "valmistusaika" : "60",
+      "ainekset" : ["6kpl bataatteja", "365g vuohenjuustoa", "1tlk kikherneitä", "150g ranskankermaa", "2rkl currytahnaa"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 401,
+      "name" : "Linssikeitto",
+      "imageUrl": "images/foodimg/401.jpeg",
+      "ruokavalio" : "vegaaninen",
+      "ohje" : "Kuullota pilkottu sipuli öljyssä ja sirottele paprikapulveri sekaan. Sekoittele. Sipulin ei tarvitse ruskistua vaan saada vain hieman väriä. Kuori perunat ja pilko pieniksi paloiksi. Lisää kaikki ainekset ja keitä kannen alla n. 35min. Tarjoile sopan kanssa leipää ja juustoa. Sitruunasiivuista saat kivaa makua soppaan.",
+      "valmistusaika" : "60",
+      "ainekset" : ["1 sipuli", "2 valkosipulinkynttä",	"2rkl öljyä", "1tl paprikaa (jauhettua)", "3dl linssejä (punaisia tai vihreitä)", "1,25l vettä", "1 kasvisliemikuutio", "2 perunaa", "2rkl tomaattipyrettä", "1tl suolaa"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 402,
+      "name" : "Marokkolainen kasvispata",
+      "imageUrl": "images/foodimg/402.jpeg",
+      "ruokavalio" : "vegaaninen",
+      "ohje" : "Kuori ja kuutioi bataatti. Pilko valkosipuli ja herkkusienet haluamasi kokoisiksi paloiksi. Pannulle loraus öljyä, valkosipulit hetkeksi tirisemään. Hetken päästä lisää herkkusienet, pyörittele tovi. Lisää tomaattimurska, bataatit, rusinat ja mausteet. Tässä vaiheessa kannattaa lisätä myös vettä, jos haluaa kastikemaisempaa. Anna muhia hetken. Tämän jälkeen lisää kikherneet. Makua tulee lisää kun murskaat sekaan kasvisliemikuution ja annat muhia. Ruoka on valmista kun bataatit ovat miellyttävän pehmeitä. Kannattaa maustaa mielivaltaisesti ja runsaalla kädellä. Tarjoile esimerkiksi riisin kanssa.",
+      "valmistusaika" : "60",
+      "ainekset" : ["1kpl bataatti", "1prk tomaattimurskaa", "1tlk kikherneitä", "1tlk herkkusieniä", "rusinoiata", "4 kynttä valkosipulia", "3tl garam masalaa", "öljyä", "1 kasvisliemikuutio"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 403,
+      "name" : "Oliivi-tomaatti-nyhtis-uunivuoka",
+      "imageUrl": "images/foodimg/403.jpeg",
+      "ruokavalio" : "vegaaninen",
+      "ohje" : "Laita uuni kuumenemaan n. 225 asteeseen. Levitä reilusti oliiviöljyä ison uunivuoan pohjalle. Ripottele öljyn päälle riisit ja nyhtökaurat. Lisää mausteet ja vesi. Laita vuoka uuniin n. puoleksi tunniksi, jonka aikana veden pitäisi haihtua noin puoleen. Ota vuoka uunista lisätäksesi pinnalle tomaatit ja oliivit kokonaisina. Voit valuttaa vielä oliiviöljyä varsinkin tomaattien pintaan. Laita vuoka vielä uuniin noin puoleksi tunniksi, tai kunnes loppu vesi on haihtunut ja tomaatit ovat hieman ruskistuneet.",
+      "valmistusaika" : "90",
+      "ainekset" : ["2-3dl riisiä", "7-9dl vettä", "250g nyhtökauraa", "1prk oliiveja", "2rasiaa kirsikkatomaatteja", "1dl oliiviöljyä", "mausteita oman maun mukaan"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 404,
+      "name" : "Spaghetti alla puttanesca",
+      "imageUrl": "images/foodimg/404.jpeg",
+      "ruokavalio" : "vegaaninen",
+      "ohje" : "Kuumenna öljy pannulla, lisää silputtu sipuli ja valkosipulisilppu. Freesaa hetki, lisää tomaatit, huuhdotut kaprikset, viipaloidut oliivit (poista kivet) ja puolet persiljasta sekä mausteet. Anna hautua hiljalleen (20-30 min). Keitä spagetti al denteksi, kaada vesi pois ja lisää spaghetti pannulle kastikkeen sekaan sekoittaen, loppu persiljasilppu myös mukaan. Tarjoile heti. Halutessa viimeistele parmesaanijuustolla, vaikka se ei välttämättä tähän ruokaan kuulukaan.",
+      "valmistusaika" : "15",
+      "ainekset" : ["500 g spagettia", "1 tlk säilöttyjä kokonaisia kirsikkatomaatteja", "2 pientä sipulia", "3 valkosipulin kynttä murskattuna", "1 dl mustia oliiveja", "2 rkl kapriksia", "nippu persiljaa", "1 tl chili rouhetta tai tuoretta yksi palko", "oreganoa", "neitsyt oliiviöljyä"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 405,
+      "name" : "Kasviswokki",
+      "imageUrl": "images/foodimg/405.jpeg",
+      "ruokavalio" : "vegaaninen",
+      "ohje" : "Valuta kikherneet ottaen suolaliemen talteen. Paista ne wokkipannussa öljyssä kunnes pinta ottaa rusketusta. Pilko sipuli ja halutessasi hieman muita kasviksia. Lisää pannuun ja kuullota hetki. Kaada pakastevihannekset joukkoon ja sulata minuutti pari. Lisää kookosmaito sekä noin 1 dl kikherneiden lientä. Mausta misolla, sinapilla ja kuivilla mausteilla. Hauduta keskilämmöllä kannen alla 10-15 min. Lisää lientä, jos wokki kuivuu liiaksi. Keitä sillä välin nuudelit tai riisintapainen lisäke. Koristele wokki yrtein tai kevätsipulilla.",
+      "valmistusaika" : "60",
+      "ainekset" : ["1 tlk kikherneitä suolaliemessä", "loraus öljyä", "1 sipuli (ja muita kasviksia mitä kaapista löytyy)", "1 pss pakastevihanneksia esim. vietnamilaismix", "200-300 ml kookosmaitoa", "1 tl misotahnaa", "1/2 - 1 tl dijonsinappia", "1/2 tl valkosipulijauhetta", "1/2 tl paprikajauhetta", "1/2 tl currya", "ripaus valkopippuria", "tuoreita yrttejä tai kevätsipulia koristeluun"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 406,
+      "name" : "Maa-artisokkarisotto",
+      "imageUrl": "images/foodimg/406.jpeg",
+      "ruokavalio" : "vegaaninen",
+      "ohje" : "Kuori maa-artisokat ja sipuli. Pilko ne parin millin kuutioiksi. Kuumenna oliiviöljy kattilassa ja lisää maa-artisokat ja sipulit. Kuullota hetki keskilämmöllä. Lisää riisi ja jatka kuullottamista muutaman minuutin ajan, kunnes riisi alkaa muuttua läpikuultavaksi. Kaada joukkooon valkoviini. Lisää lämmitettyä kasvislientä desi-pari kerrallaan aina kun edellinen erä on imeytynyt riisiin. Tämän prosessin pitäisi kestää noin 20 minuuttia. Sekoittele risottoa ahkerasti, jotta riisistä irtoaa tärkkelystä ja risotosta tulee kermaisen oloista. Lisää parmesaaniraaste, tryffeliöljy, voi ja suola (maistele sopiva määrä). Sekoittele kunnes juusto ja voi sulavat, sekä kaikki on muutenkin sopivasti sekaisin. Nauti.",
+      "valmistusaika" : "15",
+      "ainekset" : ["150 g maa-artisokkaa", "1 sipuli", "n. 2 rkl oliiviöljyä", "200 g risottoriisiä (mieluiten carnaroli, mutta arborio käy myös)", "1 dl valkoviiniä","1 l kasvislientä", "50 g parmesaaniraastetta", "30 g voita", "1/2 tl tryffeliöljyä", "1/2 tl suolaa"],
+      "budjetti" : "€€€"
+    }
+  ]
+
