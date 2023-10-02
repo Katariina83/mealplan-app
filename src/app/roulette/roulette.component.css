@@ -41,4 +41,5 @@ mat-card {
     padding: 1.5rem;
     margin: 1rem 1rem 0.5rem 1rem;
     font-size: 1.2rem;
+    border-radius: 10px;
 }

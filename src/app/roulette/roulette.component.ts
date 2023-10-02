@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, map } from 'rxjs';
+import { FormGroup, Validators, FormBuilder } from '@angular/forms';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs';
 import { DataService } from '../data.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { FormGroup, Validators, FormBuilder } from '@angular/forms';
+
 
 @Component({
   selector: 'app-roulette',
@@ -16,149 +18,156 @@ export class RouletteComponent implements OnInit {
   chosenRecipe: Observable<any[]>;
   showFormSelectors = false;
 
-  //Form handler:
+  // form handler
 
   rouletteForm: FormGroup;
 
-  constructor(
-    private dataService: DataService,
-    public fb: FormBuilder,
-    private snackBar: MatSnackBar) {
-      this.rouletteForm = fb.group({
-        roulette: ['', Validators.required],
-        budget: ['', Validators.required]
-      });
+  constructor(private dataService: DataService,
+              public fb: FormBuilder,
+              private snackBar: MatSnackBar) {
+    this.rouletteForm = fb.group({
+      roulette: ['', Validators.required],
+      budget: ['', Validators.required]
+    });
+  }
+
+  // get all recipes
+
+  ngOnInit(): void {
+    this.getRecipes();
+  }
+
+  getRecipes(): void {
+    this.recipes = this.dataService.getAllRecipes();
+    (error) => {
+      console.log('http-error:');
+      console.log(error);
+    };
+  }
+
+  // form button handler
+  // the function filters the recipes and extracts the chosen content into chosenRecipe array
+
+  onSubmit() {
+
+  if (this.rouletteForm.valid) {
+
+  // log which value (meat/fish/vege/vegan) user selected
+
+  console.log(this.rouletteForm.value);
+
+  // filter recipes by id starting number
+  // filter recipes by budget value
+  // choose a random id from the filtered recipe pool and save it as randomId
+
+  let startingNumber: string;
+  switch (this.rouletteForm.value.roulette) {
+    case 'meat':
+      startingNumber = '1';
+      break;
+    case 'fish':
+      startingNumber = '2';
+      break;
+    case 'vege':
+      startingNumber = '3';
+      break;
+    case 'vegan':
+      startingNumber = '4';
+      break;
+  }
+
+  let budgetFilter: string;
+  switch (this.rouletteForm.value.budget) {
+    case '€':
+      budgetFilter = '€';
+      break;
+    case '€€':
+      budgetFilter = '€€';
+      break;
+    case '€€€':
+      budgetFilter = '€€€';
+      break;
+  }
+
+  this.recipes.pipe(
+    map(items => items.filter(item => item.id.toString().startsWith(startingNumber))),
+    map(filteredItems => filteredItems.filter(item => item.budjetti === budgetFilter)),
+    map(filteredItems => {
+      const randomIndex = Math.floor(Math.random() * filteredItems.length);
+      return filteredItems[randomIndex].id;
+    })
+  ).subscribe(randomId => {
+    this.randomId = randomId;
+    console.log(randomId);
+
+  // extract the referenced id object (recipe) and save it as chosenRecipe
+
+  this.chosenRecipe = this.recipes.pipe(
+    map(items => items.filter(item => item.id === randomId))
+  );
+
+    // subscribe to the chosenRecipe observable to retrieve the recipe
+
+    this.chosenRecipe.subscribe(recipes => console.log(recipes));
+
+  });
+  }
+
+  // if form submit fails, launch snackbar
+
+  else {
+    this.showSnackbar();
+  }
+
+  }
+  
+  // get a random recipe from the whole recipe database
+
+  rouletteWithoutFilters() {
+
+    // choose a random id from the recipe database and save it as randomId
+
+    this.recipes.pipe(
+      map(items => {
+        const randomIndex = Math.floor(Math.random() * items.length);
+        return items[randomIndex].id;
+      })
+    ).subscribe(randomId => {
+      this.randomId = randomId;
+      console.log(randomId);
+  
+    // extract the referenced id object (recipe) and save it as chosenRecipe
+  
+    this.chosenRecipe = this.recipes.pipe(
+      map(items => items.filter(item => item.id === randomId))
+    );
+  
+    // subscribe to the chosenRecipe observable to retrieve the recipe
+  
+    this.chosenRecipe.subscribe(recipes => console.log(recipes));
+  
+    });
+
+  }
+
+  // clear the form when toggle is switched off so rouletteWithoutFilters() can work properly
+
+  onToggleChange($event) {
+    if ($event.checked) {
+      // do nothing
     }
-
-    //Getting all the recipes:
-
-    ngOnInit(): void {
-      this.getRecipes();
+    else {
+      this.rouletteForm.reset();
     }
+  }
 
-    getRecipes(): void {
-      this.recipes = this.dataService.getAllRecipes();
-      (error) => {
-        console.log('http-error:');
-        console.log(error);
-      };
-    }
+  // snackbar message if required forms fields haven't been filled
 
-    //form button handler
-    //function filters the recipes and the chosen content into chosenRecipe array
+  showSnackbar() {
+    this.snackBar.open('Valitse ruokavalio ja budjetti ensin, ole hyvä.', 'Sulje', {
+      duration: 4000,
+      verticalPosition: 'bottom'
+    });
+  }
 
-    onSubmit() {
-      if (this.rouletteForm.valid) {
-
-        console.log(this.rouletteForm.value);   //log which value (meat/fish/vege/vegan) user selects
-
-        // filter recipes by id starting number
-        // filter recipes by budget value
-        // choose a random id from the filtered recipe pool and save it as randomId
-
-        let startingNumber: string;
-        switch (this.rouletteForm.value.roulette) {
-          case 'meat':
-            startingNumber = '1';
-            break;
-          case 'fish':
-            startingNumber = '2';
-            break;
-          case 'vege':
-            startingNumber = '3';
-            break;
-          case 'vegan':
-            startingNumber = '4';
-            break;
-        }
-
-        let budgetFilter: string;
-        switch (this.rouletteForm.value.budget) {
-          case '€':
-            budgetFilter = '€';
-            break;
-          case '€€':
-            budgetFilter = '€€';
-            break;
-          case '€€€':
-            budgetFilter = '€€€';
-            break;
-        }
-        
-        this.recipes.pipe(
-          map(items => items.filter(item => item.id.toString().startsWith(startingNumber))),
-          map(filteredItems => filteredItems.filter(item => item.budjetti === budgetFilter)),
-          map(filteredItems => {
-            const randomIndex = Math.floor(Math.random() * filteredItems.length);
-            return filteredItems[randomIndex].id;
-          })
-        ).subscribe(randomId => {
-          this.randomId = randomId;
-          console.log(randomId);
-
-          // extract the referenced id object (recipe) and save it as chosenRecipe
-
-          this.chosenRecipe = this.recipes.pipe(
-            map(items => items.filter(item => item.id === randomId))
-          );
-
-          // subscribe to the chosenRecipe observable to retrieve the recipe
-
-          this.chosenRecipe.subscribe(recipes => console.log(recipes));
-        });
-      }
-
-      //if form submit fails, launch snackbar:
-
-      else {
-        this.showSnackbar();
-      }
-    }
-
-    // get a random recipe from the whole recipe database:
-
-    rouletteWithoutFilters() {
-
-      //Choose a random recipe id from the recipe database and save it as a randomId:
-
-      this.recipes.pipe(
-        map(items => {
-          const randomIndex = Math.floor(Math.random() * items.lentgh);
-          return items[randomIndex].id;
-        })
-      ).subscribe(randomId => {
-        this.randomId = randomId;
-        console.log(randomId);
-
-        // Extract the referenced id object (recipe) and save it as chosenRecipe
-
-        this.chosenRecipe = this.recipes.pipe(
-          map(items => items.filter(item => item.id === randomId))
-        );
-
-        // Subscribe to the chosenRecipe observable to retrieve the recipe
-
-        this.chosenRecipe.subscribe(recipes => console.log(recipes));
-      });
-    }
-
-    // Clear the form when toggle is switched off, so that the rouletteWithoutFilters() functions properly:
-
-    onToggleChange($event) {
-      if ($event.checked) {   //do nothing
-
-      }
-      else {
-        this.rouletteForm.reset();
-      }
-    }
-
-    // Snackbar message if required forms fields haven't been filled:
-
-    showSnackbar() {
-      this.snackBar.open('Valitse ruokavalio ja budjetti ensin, ole hyvä.', 'Sulje', {
-        duration: 4000,
-        verticalPosition: 'bottom'
-      });
-    }
 }

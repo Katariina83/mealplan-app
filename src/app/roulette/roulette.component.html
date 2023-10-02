@@ -1,63 +1,77 @@
 <section class="roulette">
 
-    <mat-slide-toggle color="primary" class="toggle"
-    [(ngModel)]="showFormSelectors"
-    (change)="onToggleChange($event)">
-    <label for="mat-slide-toggle">Rajattu haku!</label>
-    </mat-slide-toggle>
-  
-    <form [formGroup]="rouletteForm" (ngSubmit)="onSubmit()">
-      
-    <article class="rouletteBoxes formSelectors" *ngIf="showFormSelectors">
-      <mat-card>
-      <mat-card-header>Ruokavalio</mat-card-header>
-      <mat-card-content>
-      <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" value="meat" id="meat" formControlName="roulette">
-      <label class="form-check-label" for="meat">Liha</label>
-      </div>
-      <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" value="fish" id="fish" formControlName="roulette">
-      <label class="form-check-label" for="fish">Kala</label>
-      </div>
-      <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" value="vege" id="vege" formControlName="roulette">
-      <label class="form-check-label" for="vege">Kasvis</label>
-      </div>
-      <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" value="vegan" id="vegan" formControlName="roulette">
-      <label class="form-check-label" for="vegan">Vegaaninen</label>
-      </div>
-      </mat-card-content>
-      </mat-card>
-    </article>
-  
-    <article class="rouletteBoxes formSelectors" *ngIf="showFormSelectors">
-      <mat-card>
-      <mat-card-header>Budjetti</mat-card-header>
-      <mat-card-content>
-      <div class="form-check form-check-inline budget-check">
-      <input class="form-check-input" type="radio" value="€" id="€" formControlName="budget">
-      <label class="form-check-label" for="€">€</label>
-      </div>
-      <div class="form-check form-check-inline budget-check">
-      <input class="form-check-input" type="radio" value="€€" id="€€" formControlName="budget">
-      <label class="form-check-label" for="€€">€€</label>
-      </div>
-      <div class="form-check form-check-inline budget-check">
-      <input class="form-check-input" type="radio" value="€€€" id="€€€" formControlName="budget">
-      <label class="form-check-label" for="€€€">€€€</label>
-      </div>
-      </mat-card-content>
-      </mat-card>
-    </article>
+  <mat-slide-toggle color="primary" class="toggle"
+  [(ngModel)]="showFormSelectors"
+  (change)="onToggleChange($event)">
+  <label for="mat-slide-toggle">Rajattu haku!</label>
+  </mat-slide-toggle>
 
-    <section class="rouletteButton">
-        <button mat-raised-button color="primary" type="submit" *ngIf="showFormSelectors">Ruletti</button>
-    </section>
-    </form>
+  <form [formGroup]="rouletteForm" (ngSubmit)="onSubmit()">
+    
+  <article class="rouletteBoxes formSelectors" *ngIf="showFormSelectors">
+    <mat-card>
+    <mat-card-header>Ruokavalio</mat-card-header>
+    <mat-card-content>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="meat" id="meat" formControlName="roulette">
+    <label class="form-check-label" for="meat">Liha</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="fish" id="fish" formControlName="roulette">
+    <label class="form-check-label" for="fish">Kala</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="vege" id="vege" formControlName="roulette">
+    <label class="form-check-label" for="vege">Kasvis</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="vegan" id="vegan" formControlName="roulette">
+    <label class="form-check-label" for="vegan">Vegaaninen</label>
+    </div>
+    </mat-card-content>
+    </mat-card>
+  </article>
 
-    <button mat-raised-button color="accent" (click)="rouletteWithoutFilters()" *ngIf="!showFormSelectors">Ruletti</button>
+  <article class="rouletteBoxes formSelectors" *ngIf="showFormSelectors">
+    <mat-card>
+    <mat-card-header>Budjetti</mat-card-header>
+    <mat-card-content>
+    <div class="form-check form-check-inline budget-check">
+    <input class="form-check-input" type="radio" value="€" id="€" formControlName="budget">
+    <label class="form-check-label" for="€">€</label>
+    </div>
+    <div class="form-check form-check-inline budget-check">
+    <input class="form-check-input" type="radio" value="€€" id="€€" formControlName="budget">
+    <label class="form-check-label" for="€€">€€</label>
+    </div>
+    <div class="form-check form-check-inline budget-check">
+    <input class="form-check-input" type="radio" value="€€€" id="€€€" formControlName="budget">
+    <label class="form-check-label" for="€€€">€€€</label>
+    </div>
+    </mat-card-content>
+    </mat-card>
+  </article>
+
+  <section class="rouletteButton">
+
+  <button
+  mat-raised-button color="primary"
+  type="submit"
+  *ngIf="showFormSelectors"
+  >Ruletti</button>
+
+  </section>
+
+  </form>
+
+  <button
+  mat-raised-button color="accent"
+  (click)="rouletteWithoutFilters()"
+  *ngIf="!showFormSelectors">Ruletti</button>
+
 </section>
 
+<!-- import chosenRecipe to recipes and shopping-list components -->
+
 <app-recipes [chosenRecipe]="chosenRecipe"></app-recipes>
+

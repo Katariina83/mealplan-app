@@ -1,5 +1,7 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Observable } from 'rxjs';
+
+import { Recipe } from '../../shared/interfaces'
 
 @Component({
   selector: 'app-shopping-list',
@@ -8,15 +10,16 @@ import { Observable } from 'rxjs';
 })
 export class ShoppingListComponent implements OnInit {
   header?: string;
-  isStrikethgough = false;
-
+  isStrikethrough = false;
+  // recipes: Observable<any>;
+  // ingredients: Recipe[] = [];
   @Input() chosenRecipe: Observable<any[]>;
 
   constructor() {
-    
   }
 
   ngOnInit(): void {
-
+    
   }
+
 }
